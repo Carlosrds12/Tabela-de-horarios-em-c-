@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+cout << "Horários" << endl;
+cout << "------------------" << endl;
+cout << "08:00" << " - " << "Empresa" << endl;
+cout << "12:00" << " - " << "Almoço" << endl;
+cout << "13:00" << " - " << "Faculdade" << endl;
+cout << "18:00" << " - " << "Casa" << endl;
+cout << "19:00" << " - " << "Estudar" << endl;
+cout << "21:00" << " - " << "Gameplay" << endl;
+cout << "00:00" << " - " << "Dormir" << endl;
+cout << "------------------" << endl;
+return 0;
+}
