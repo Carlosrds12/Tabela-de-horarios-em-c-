@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float valor_despesas, valor_gorjeta, valor_total;
+
+    printf("Digite o valor gasto com despesas: R$ ");
+    scanf("%f", &valor_despesas);
+
+    valor_gorjeta = 0.1 * valor_despesas;
+    valor_total = valor_despesas + valor_gorjeta;
+
+    printf("Valor das despesas: R$ %.2f\n", valor_despesas);
+    printf("Valor da gorjeta (10%%): R$ %.2f\n", valor_gorjeta);
+    printf("Valor total a ser pago: R$ %.2f\n", valor_total);
+
+    return 0;
+}
